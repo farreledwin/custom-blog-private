@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.margin-auto {
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.padding-left-8 {
+  padding-left: 8em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: proxima-nova;
+  src: url('./assets/font/proxima_ssv/ProximaNova-Regular.otf')
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-family--proxima-nova {
+  font-family: proxima-nova;
 }
 
-.App-link {
-  color: #61dafb;
+.color-black {
+  color: black !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.color-blue-283295 {
+  background-color: #283295 !important;
 }
