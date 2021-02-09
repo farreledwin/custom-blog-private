@@ -11,8 +11,26 @@
   src: url('./assets/font/proxima_ssv/ProximaNova-Regular.otf')
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/font/Poppins-Regular.ttf');
+}
+
+.font-family--poppins {
+  font-family: Poppins;
+}
+
 .font-family--proxima-nova {
   font-family: proxima-nova;
+}
+
+.font-family--montserrat {
+  font-family: Montserrat;
 }
 
 .color-black {
@@ -25,4 +43,15 @@
 
 .color-blue-283295 {
   background-color: #283295 !important;
+}
+.color-brown {
+  color: #B6A2A1;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.row {
+  margin:0 !important;
 }

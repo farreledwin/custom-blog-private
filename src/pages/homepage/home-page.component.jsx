@@ -1,7 +1,7 @@
 import React from 'react';
-import Jumbotron from '../components/jumbotron/jumbotron.component';
-import CardHome from '../components/card-home/card-home.component';
-import './homepage.css';
+import Jumbotron from '../../components/jumbotron/jumbotron.component';
+import CardHome from '../../components/card-home/card-home.component';
+import './homepage.styles.css';
 import {FaSearch} from 'react-icons/fa';
 
 const HomePage = () => (
